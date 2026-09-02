@@ -61,25 +61,25 @@ function ScrollRevealText({ text }: { text: string }) {
 
 const sideImages = [
   {
-    src: "/images/pranore/pranore-oud.jpg",
-    alt: "Pranore Oud attar — resinous heartwood",
+    src: "/images/pranore/pranore-hair-oil.jpg",
+    alt: "Pranore Hair Oil — botanical hair & scalp ritual",
     position: "left",
   },
   {
-    src: "/images/pranore/pranore-saffron.jpg",
-    alt: "Pranore Saffron attar — Kashmir harvest",
+    src: "/images/pranore/pranore-body-oil.jpg",
+    alt: "Pranore Body Oil — nourishing massage ritual",
     position: "right",
   },
 ];
 
-const textCycles = ["AN ANCIENT ART.", "A CONTEMPORARY HOUSE.", "CRAFTED IN INDIA."];
+const textCycles = ["AN ANCIENT RITUAL.", "A CONTEMPORARY HOUSE.", "CRAFTED IN INDIA."];
 
 export function TechnologySection() {
   const sectionRef = useRef<HTMLElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
 
   const heritageCopy =
-    "India has carried the art of fragrance through generations. Pranore reinterprets that heritage through modern perfume oils, attars and fragrances created around extraordinary Indian botanicals.";
+    "India has massaged botanical oils into hair and skin for generations. Pranore reinterprets that heritage through slow-infused oils created around extraordinary Indian botanicals.";
 
   useEffect(() => {
     const handleScroll = () => {
@@ -147,8 +147,8 @@ export function TechnologySection() {
             style={{ width: `${centerWidth}%`, flex: "0 0 auto" }}
           >
             <Image
-              src="/images/pranore/pranore-indian-heritage.jpg"
-              alt="Indian heritage — attar distillation and botanical craft"
+              src="/images/pranore/pranore-botanical-oils.jpg"
+              alt="Indian heritage — botanical oils and infusion craft"
               fill
               priority
               className="object-cover"

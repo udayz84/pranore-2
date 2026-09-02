@@ -29,7 +29,7 @@ export async function generateMetadata({
   if (!product) return { title: "Not Found — PRANORE" };
   return {
     title: `${product.name} — PRANORE`,
-    description: `${product.name} — ${product.description}. A Pranore perfume oil attar rooted in India's botanical heritage.`,
+    description: `${product.name} — ${product.description}. A Pranore botanical oil rooted in India's wellness heritage.`,
   };
 }
 
@@ -40,9 +40,9 @@ export default async function ProductPage({ params }: ProductPageProps) {
 
   const related = products.filter((p) => p.slug !== product.slug).slice(0, 3);
   const notes = [
-    { label: "Top", value: product.notes.top },
-    { label: "Heart", value: product.notes.heart },
-    { label: "Base", value: product.notes.base },
+    { label: "Aroma", value: product.notes.top },
+    { label: "Botanicals", value: product.notes.heart },
+    { label: "Foundation", value: product.notes.base },
   ];
 
   return (
@@ -67,7 +67,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
           <div className="relative aspect-[3/4] overflow-hidden border border-border bg-secondary lg:sticky lg:top-28 lg:self-start">
             <Image
               src={product.image}
-              alt={`Pranore ${product.name} — ${product.family} attar`}
+              alt={`Pranore ${product.name} — ${product.family} oil`}
               fill
               priority
               className="object-cover"
@@ -112,7 +112,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
             <div className="mt-10">
               <div className="flex items-baseline justify-between">
                 <p className="text-[11px] uppercase tracking-[0.25em] text-muted-foreground">
-                  {product.size} · Parfum
+                  {product.size} · Slow-Infused
                 </p>
                 <p className="font-display text-3xl font-medium text-foreground">
                   {formatPrice(product.price)}
@@ -133,20 +133,18 @@ export default async function ProductPage({ params }: ProductPageProps) {
                   Composition & Craft
                 </AccordionTrigger>
                 <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
-                  Composed in India from {product.notes.heart.toLowerCase()} at
-                  the heart, layered with {product.notes.top.toLowerCase()} and
-                  grounded in {product.notes.base.toLowerCase()}. Matured as a
-                  perfume oil and hand-filled in small batches.
+                  Composed in India around {product.notes.heart.toLowerCase()},
+                  layered with {product.notes.top.toLowerCase()} and grounded
+                  in {product.notes.base.toLowerCase()}. Slow-infused as a
+                  botanical oil and hand-filled in small batches.
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="ritual">
                 <AccordionTrigger className="text-[11px] font-medium uppercase tracking-[0.25em] hover:no-underline">
-                  The Wearing Ritual
+                  The Ritual
                 </AccordionTrigger>
                 <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
-                  Warm a drop between the fingertips, then press onto pulse
-                  points — wrists, the base of the throat, behind the ears.
-                  Oils bloom with body heat and linger for hours.
+                  {product.ritual}
                 </AccordionContent>
               </AccordionItem>
               <AccordionItem value="shipping">
@@ -156,7 +154,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
                 <AccordionContent className="text-sm leading-relaxed text-muted-foreground">
                   Dispatched within 48 hours in protective, plastic-free
                   packaging. Complimentary shipping across India. Unopened
-                  flacons may be returned within 14 days.
+                  bottles may be returned within 14 days.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>

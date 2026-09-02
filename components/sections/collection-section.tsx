@@ -26,7 +26,7 @@ export function CollectionSection() {
           </div>
           <div className="mt-4 flex flex-wrap items-end justify-between gap-4">
             <h2 className="font-display text-3xl font-medium tracking-tight text-foreground md:text-5xl">
-              ATTARS & <span className="italic text-gold">PERFUME OILS.</span>
+              HAIR & BODY <span className="italic text-gold">OILS.</span>
             </h2>
             <Link
               href="/shop"
@@ -48,7 +48,7 @@ export function CollectionSection() {
             <div className="relative aspect-[3/4] overflow-hidden border border-border bg-secondary">
               <FadeImage
                 src={product.image}
-                alt={`Pranore ${product.name} attar`}
+                alt={`Pranore ${product.name} — botanical oil`}
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -95,7 +95,7 @@ export function CollectionSection() {
             <div className="relative aspect-[3/4] overflow-hidden border border-border bg-secondary">
               <FadeImage
                 src={product.image}
-                alt={`Pranore ${product.name} attar`}
+                alt={`Pranore ${product.name} — botanical oil`}
                 fill
                 className="object-cover transition-transform duration-700 group-hover:scale-105"
               />

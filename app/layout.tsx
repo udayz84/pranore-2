@@ -19,9 +19,9 @@ const fraunces = Fraunces({
 });
 
 export const metadata: Metadata = {
-  title: 'PRANORE — The Art of Indian Perfumery',
+  title: 'PRANORE — The Art of Indian Wellness',
   description:
-    'A contemporary Indian fragrance house. Attars, perfume oils and fragrances crafted from extraordinary Indian botanicals — mogra, sandalwood, vetiver, saffron and oud.',
+    'A contemporary Indian wellness house. Botanical hair oil and nourishing body massage oil, slow-infused from extraordinary Indian botanicals — amla, bhringraj, vetiver and sandalwood.',
   generator: 'v0.app',
   icons: {
     icon: [

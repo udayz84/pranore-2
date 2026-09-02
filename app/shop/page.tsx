@@ -5,7 +5,7 @@ import { products } from "@/lib/products";
 export const metadata: Metadata = {
   title: "Shop — PRANORE",
   description:
-    "Shop Pranore attars and perfume oils — Mogra, Sandalwood, Vetiver, Oud and Saffron.",
+    "Shop Pranore botanical oils — a botanical hair & scalp oil and a nourishing body massage oil.",
 };
 
 export default function ShopPage() {
@@ -17,15 +17,16 @@ export default function ShopPage() {
           <div className="flex items-center gap-3">
             <span className="inline-block h-[6px] w-[6px] rotate-45 bg-gold" />
             <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-muted-foreground">
-              Shop · N°01—05
+              Shop · N°01—02
             </p>
           </div>
           <h1 className="mt-5 font-display text-5xl font-medium leading-[1.02] tracking-tight text-foreground md:text-7xl">
             THE <span className="italic text-gold">COLLECTION.</span>
           </h1>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground md:text-base">
-            Five attars, five Indian botanicals. Each composed as a perfume oil
-            of parfum concentration, presented in a 12 ml flacon.
+            Two oils to begin — a botanical hair &amp; scalp oil and a
+            nourishing body massage oil, each slow-infused in small batches
+            and presented in 100 ml bottles.
           </p>
         </div>
       </header>

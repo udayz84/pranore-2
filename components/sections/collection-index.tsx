@@ -47,7 +47,7 @@ export function CollectionIndex() {
           <span className="pointer-events-none absolute right-[16%] top-1/2 z-20 hidden aspect-[3/4] w-28 -translate-y-1/2 rotate-3 overflow-hidden border border-border opacity-0 shadow-2xl transition-all duration-500 group-hover:rotate-0 group-hover:opacity-100 lg:block">
             <Image
               src={product.image}
-              alt={`Pranore ${product.name} attar`}
+              alt={`Pranore ${product.name} — botanical oil`}
               fill
               className="object-cover"
             />

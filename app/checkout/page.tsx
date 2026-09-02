@@ -27,7 +27,7 @@ export default function CheckoutPage() {
             ORDER PLACED.
           </h1>
           <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-            Thank you. Your attars are being prepared in protective, plastic-free
+            Thank you. Your oils are being prepared in protective, plastic-free
             packaging and will dispatch within 48 hours.
           </p>
           <Link
@@ -60,7 +60,8 @@ export default function CheckoutPage() {
               Your bag is empty
             </p>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
-              Discover the Pranore collection of attars and perfume oils.
+              Discover the Pranore collection of botanical hair and body
+              oils.
             </p>
             <Link
               href="/shop"

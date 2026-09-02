@@ -14,7 +14,7 @@ import {
 import { products, formatPrice } from "@/lib/products";
 
 const pages = [
-  { name: "Shop", href: "/shop", hint: "All attars & perfume oils" },
+  { name: "Shop", href: "/shop", hint: "All hair & body oils" },
   { name: "Collection", href: "/collection", hint: "The Pranore index" },
   { name: "The House", href: "/the-house", hint: "Our heritage & craft" },
   { name: "Journal", href: "/journal", hint: "Stories from India" },
@@ -52,10 +52,10 @@ export function SearchDialog() {
       </button>
 
       <CommandDialog open={open} onOpenChange={setOpen}>
-        <CommandInput placeholder="Search fragrances, botanicals, pages…" />
+        <CommandInput placeholder="Search oils, botanicals, pages…" />
         <CommandList>
           <CommandEmpty>No results found.</CommandEmpty>
-          <CommandGroup heading="Fragrances">
+          <CommandGroup heading="The Oils">
             {products.map((product) => (
               <CommandItem
                 key={product.slug}

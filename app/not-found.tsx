@@ -4,7 +4,7 @@ export default function NotFound() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-background px-6 text-center">
       <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-[#7B7166]">
-        Lost the scent
+        Lost the ritual
       </p>
       <h1 className="mt-5 font-display text-6xl font-medium tracking-tight text-foreground md:text-8xl">
         404<span className="text-gold">.</span>

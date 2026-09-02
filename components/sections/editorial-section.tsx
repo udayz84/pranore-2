@@ -5,9 +5,9 @@ import { useRef, useState, useEffect, useCallback } from "react";
 import { FadeImage } from "@/components/fade-image";
 
 const specs = [
-  { label: "Format", value: "12 ML" },
-  { label: "Concentration", value: "Parfum" },
-  { label: "Method", value: "Deg & Bhapka" },
+  { label: "Format", value: "100 ML" },
+  { label: "Infusion", value: "21 Days" },
+  { label: "Method", value: "Slow-Steeped" },
   { label: "Origin", value: "India" },
 ];
 
@@ -49,23 +49,23 @@ export function EditorialSection() {
         <div className="flex items-center gap-3">
           <span className="inline-block h-[6px] w-[6px] rotate-45 bg-gold" />
           <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-muted-foreground">
-            Perfume Oils
+            The Oils
           </p>
         </div>
         <div className="mt-6 flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
           <h2 className="max-w-2xl font-display text-4xl font-medium leading-[1.05] tracking-tight text-foreground md:text-6xl">
-            DISTILLED WITH <span className="italic text-gold">INTENTION.</span>
+            INFUSED WITH <span className="italic text-gold">INTENTION.</span>
           </h2>
           <div className="lg:max-w-sm lg:text-right">
             <p className="text-sm leading-relaxed text-muted-foreground md:text-base">
-              Rare botanicals, traditional perfume-making knowledge and a
-              contemporary approach to composition.
+              Rare botanicals, traditional oil-making knowledge and a
+              contemporary approach to formulation.
             </p>
             <Link
               href="/shop"
               className="mt-5 inline-block border border-foreground px-6 py-3.5 text-[11px] font-medium uppercase tracking-[0.22em] text-foreground transition-colors hover:bg-foreground hover:text-background"
             >
-              Explore Perfume Oils
+              Explore The Oils
             </Link>
           </div>
         </div>
@@ -83,8 +83,8 @@ export function EditorialSection() {
           }}
         >
           <FadeImage
-            src="/images/pranore/pranore-perfume-oil-detail.jpg"
-            alt="Pranore perfume oil — attar being blended drop by drop"
+            src="/images/pranore/pranore-lifestyle-oil.jpg"
+            alt="Pranore botanical oil — botanicals steeping in oil"
             fill
             className="object-cover"
           />

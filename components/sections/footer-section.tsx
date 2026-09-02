@@ -22,9 +22,9 @@ export function FooterSection() {
           <div className="md:col-span-6 lg:col-span-5">
             <Logo tone="light" />
             <p className="mt-6 max-w-sm text-sm leading-relaxed text-cream/60">
-              A contemporary Indian fragrance house — attars, perfume oils and
-              fragrances rooted in the country&apos;s botanical heritage, from
-              mogra fields to Mysore sandalwood.
+              A contemporary Indian wellness house — botanical hair and
+              body oils rooted in the country&apos;s oil rituals, from the
+              Sunday champi to the evening abhyanga.
             </p>
             <p className="mt-6 text-[11px] uppercase tracking-[0.3em] text-gold">
               Crafted in India

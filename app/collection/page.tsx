@@ -6,7 +6,7 @@ import { CollectionIndex } from "@/components/sections/collection-index";
 export const metadata: Metadata = {
   title: "Collection — PRANORE",
   description:
-    "The Pranore collection index — five attars composed around Indian botanicals.",
+    "The Pranore collection index — botanical oils composed around Indian botanicals.",
 };
 
 export default function CollectionPage() {
@@ -25,8 +25,8 @@ export default function CollectionPage() {
             THE PRANORE <span className="italic text-gold">INDEX.</span>
           </h1>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground md:text-base">
-            Every Pranore fragrance, held to the same standard — an Indian
-            botanical worth wearing for a lifetime.
+            Every Pranore oil, held to the same standard — an Indian
+            botanical worth making part of a daily ritual.
           </p>
         </div>
       </header>
@@ -43,20 +43,20 @@ export default function CollectionPage() {
         <div className="mx-auto grid max-w-7xl items-center gap-10 lg:grid-cols-2 lg:gap-16">
           <div className="relative aspect-[4/3] overflow-hidden border border-border bg-secondary">
             <Image
-              src="/images/pranore/pranore-botanical-detail.jpg"
-              alt="Pranore botanicals — the materials behind the collection"
+              src="/images/pranore/pranore-botanical-oils.jpg"
+              alt="Pranore botanicals — the ingredients behind the collection"
               fill
               className="object-cover"
             />
           </div>
           <div>
             <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-foreground md:text-5xl">
-              SCENT, ROOTED IN <span className="italic text-gold">INDIA.</span>
+              RITUAL, ROOTED IN <span className="italic text-gold">INDIA.</span>
             </h2>
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground md:text-base">
-              From fragrant woods and luminous flowers to the timeless craft of
-              attar, Pranore brings India&apos;s botanical heritage into a
-              contemporary world.
+              From the Sunday champi to the evening abhyanga, Pranore
+              brings India&apos;s botanical oil rituals into a contemporary
+              world.
             </p>
             <Link
               href="/the-house"

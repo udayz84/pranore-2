@@ -8,26 +8,26 @@ const word = "PRANORE";
 
 const sideImages = [
   {
-    src: "/images/pranore/pranore-mogra.jpg",
-    alt: "Pranore Mogra — white floral attar",
+    src: "/images/pranore/pranore-hair-oil.jpg",
+    alt: "Pranore Hair Oil — botanical hair & scalp oil",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/pranore/pranore-sandalwood.jpg",
-    alt: "Pranore Sandalwood — creamy wood attar",
+    src: "/images/pranore/pranore-botanical-oils.jpg",
+    alt: "Pranore botanicals — amla, bhringraj and sesame oils",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/pranore/pranore-vetiver.jpg",
-    alt: "Pranore Vetiver — earthy green attar",
+    src: "/images/pranore/pranore-body-oil.jpg",
+    alt: "Pranore Body Oil — nourishing body massage oil",
     position: "right",
     span: 1,
   },
   {
-    src: "/images/pranore/pranore-saffron.jpg",
-    alt: "Pranore Saffron — warm spiced attar",
+    src: "/images/pranore/pranore-lifestyle-oil.jpg",
+    alt: "Pranore — the ritual of botanical oils",
     position: "right",
     span: 1,
   },
@@ -122,8 +122,8 @@ export function HeroSection() {
               }}
             >
               <Image
-                src="/images/pranore/hero-pranore-attar.jpg"
-                alt="Pranore attar flacon amid Indian botanicals"
+                src="/images/pranore/hero-pranore-oils.jpg"
+                alt="Pranore botanical oils amid Indian botanicals"
                 fill
                 priority
                 className="absolute inset-0 z-0 object-cover"
@@ -159,7 +159,7 @@ export function HeroSection() {
                   className="mt-5 animate-[slideUp_0.8s_ease-out_forwards] opacity-0 text-[10px] font-medium uppercase tracking-[0.42em] text-[#2A2825]/80 md:text-xs"
                   style={{ animationDelay: "0.6s" }}
                 >
-                  The Art of Indian Perfumery
+                  The Art of Indian Wellness
                 </p>
               </div>
             </div>
@@ -208,9 +208,9 @@ export function HeroSection() {
             <span className="inline-block h-[5px] w-[5px] rotate-45 bg-gold" />
           </p>
           <p className="mt-4 font-display text-xl leading-snug text-foreground md:text-3xl">
-            Ancient botanicals. Modern expression.
+            Ancient botanicals. Modern formulation.
             <br />
-            Fragrance crafted to linger.
+            Rituals crafted to last.
           </p>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
             <Link

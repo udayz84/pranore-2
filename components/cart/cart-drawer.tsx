@@ -60,7 +60,8 @@ export function CartDrawer() {
                   Your bag is empty
                 </p>
                 <p className="mt-2 text-sm text-muted-foreground">
-                  Discover the Pranore collection of attars and perfume oils.
+                  Discover the Pranore collection of botanical hair and
+                  body oils.
                 </p>
               </div>
               <Link

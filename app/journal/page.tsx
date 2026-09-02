@@ -5,33 +5,33 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Journal — PRANORE",
   description:
-    "Stories from the house of Pranore — botanicals, rituals and the craft of Indian perfumery.",
+    "Stories from the house of Pranore — botanicals, rituals and the craft of Indian oils.",
 };
 
 const entries = [
   {
-    tag: "Botanicals",
+    tag: "Rituals",
     date: "Aug 2026",
-    title: "The Monsoon Harvest of Mogra",
+    title: "The Sunday Champi",
     excerpt:
-      "In the fields of Tamil Nadu, jasmine sambac is picked between four and seven in the morning — before the sun takes the fragrance back. A note on patience, and why dawn oil smells different.",
-    image: "/images/pranore/pranore-mogra.jpg",
+      "In most Indian homes, hair oiling is still a weekly ceremony — sections parted, oil warmed between the palms, an unhurried hour before the wash. A note on why the ritual matters as much as the oil.",
+    image: "/images/pranore/pranore-hair-oil.jpg",
   },
   {
     tag: "Craft",
     date: "Jul 2026",
-    title: "Deg & Bhapka: The Old Distillation",
+    title: "Twenty-One Days of Slow Infusion",
     excerpt:
-      "The traditional attar still hasn't changed in five hundred years — copper deg, bamboo receiver, water charged with petals. We spent a season learning why slow distillation matters.",
-    image: "/images/pranore/pranore-perfume-oil-detail.jpg",
+      "Good oil is not made quickly. Botanicals steeped in cold-pressed sesame, watched and turned daily, give up their character slowly. We spent a season learning why patience is an ingredient.",
+    image: "/images/pranore/pranore-botanical-oils.jpg",
   },
   {
-    tag: "The House",
+    tag: "Wellness",
     date: "Jun 2026",
-    title: "Sandalwood: A Meditation in Wood",
+    title: "Abhyanga: The Evening Massage",
     excerpt:
-      "Mysore sandalwood is not an ingredient so much as a pace of life. On temples, ritual paste, and composing a fragrance that behaves like a slow breath.",
-    image: "/images/pranore/pranore-botanical-detail.jpg",
+      "The classical self-massage is less a treatment than a discipline — warm oil, long strokes, a few quiet minutes at the close of the day. On composing an oil worthy of the habit.",
+    image: "/images/pranore/pranore-body-oil.jpg",
   },
 ];
 
@@ -52,7 +52,7 @@ export default function JournalPage() {
           </h1>
           <p className="mt-6 max-w-md text-sm leading-relaxed text-muted-foreground md:text-base">
             Field notes on botanicals, rituals and the craft of Indian
-            perfumery.
+            oils.
           </p>
         </div>
       </header>
@@ -95,7 +95,7 @@ export default function JournalPage() {
       <div className="mt-20 px-6 md:mt-28 md:px-12 lg:px-20">
         <div className="mx-auto flex max-w-7xl flex-col items-center border-t border-border pt-14 text-center">
           <p className="font-display text-2xl italic text-foreground md:text-3xl">
-            The best stories are worn, not read.
+            The best rituals are practiced, not read.
           </p>
           <Link
             href="/shop"

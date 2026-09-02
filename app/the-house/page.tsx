@@ -6,7 +6,7 @@ import { CollectionSection } from "@/components/sections/collection-section";
 export const metadata: Metadata = {
   title: "The House — PRANORE",
   description:
-    "An ancient art, a contemporary house. Pranore reinterprets India's heritage of attar and perfume oils.",
+    "An ancient ritual, a contemporary house. Pranore reinterprets India's heritage of botanical hair and body oils.",
 };
 
 export default function TheHousePage() {
@@ -15,8 +15,8 @@ export default function TheHousePage() {
       {/* Hero */}
       <section className="relative flex min-h-[88vh] items-end overflow-hidden">
         <FadeImage
-          src="/images/pranore/pranore-indian-heritage.jpg"
-          alt="India's heritage of fragrance — attar craft and botanicals"
+          src="/images/pranore/pranore-botanical-oils.jpg"
+          alt="India's heritage of botanical oils — infusion craft and botanicals"
           fill
           className="object-cover"
         />
@@ -28,7 +28,7 @@ export default function TheHousePage() {
             The House
           </p>
           <h1 className="mt-5 max-w-4xl font-display text-4xl font-medium leading-[1.05] tracking-tight text-[#F2E9D8] sm:text-5xl md:text-7xl">
-            AN ANCIENT ART.
+            AN ANCIENT RITUAL.
             <br />
             A <span className="italic text-gold">CONTEMPORARY</span> HOUSE.
           </h1>
@@ -40,40 +40,39 @@ export default function TheHousePage() {
         <div className="mx-auto grid max-w-7xl gap-12 lg:grid-cols-12 lg:gap-16">
           <div className="lg:col-span-7">
             <h2 className="font-display text-3xl font-medium leading-tight tracking-tight text-foreground md:text-4xl">
-              India has carried the art of fragrance through generations.
+              India has massaged botanical oils into hair and skin for
+              generations.
             </h2>
             <div className="mt-8 space-y-6 text-[15px] leading-relaxed text-foreground/80">
               <p>
-                Long before the modern perfume house, there was the attar —
-                flowers, woods and spices hydro-distilled drop by drop in the
-                deg and bhapka, carried in camel-skin pouches along trade
-                routes, worn at weddings, offered at temples.
+                Long before the modern wellness counter, there was the home
+                ritual — botanicals steeped in oil through the week, a Sunday
+                champi passed down through generations, the quiet discipline
+                of the evening abhyanga.
               </p>
               <p>
                 Pranore was founded to carry that lineage forward without
                 treating it as a museum piece. We work with extraordinary
-                Indian botanicals — mogra gathered before dawn, Mysore
-                sandalwood, Kerala vetiver, Kashmiri saffron, Assam oud — and
-                compose them with a contemporary sensibility.
+                Indian botanicals — amla, bhringraj, brahmi, vetiver, Mysore
+                sandalwood — and compose them with a contemporary sensibility.
               </p>
               <p>
-                Each fragrance is matured as a perfume oil, hand-filled in
-                small batches, and presented in a flacon designed to be kept,
-                not discarded.
+                Each oil is slow-infused, hand-filled in small batches, and
+                presented in a bottle designed to be kept, not discarded.
               </p>
             </div>
           </div>
           <div className="lg:col-span-5">
             <div className="relative aspect-[4/5] overflow-hidden border border-border bg-secondary">
               <FadeImage
-                src="/images/pranore/pranore-perfume-oil-detail.jpg"
-                alt="Pranore perfume oil — craftsmanship and ingredients"
+                src="/images/pranore/pranore-lifestyle-oil.jpg"
+                alt="Pranore botanical oil — craftsmanship and ingredients"
                 fill
                 className="object-cover"
               />
             </div>
             <p className="mt-4 text-[11px] uppercase tracking-[0.22em] text-muted-foreground">
-              Distilled with intention — perfume oils in small batches
+              Infused with intention — botanical oils in small batches
             </p>
           </div>
         </div>
@@ -88,12 +87,12 @@ export default function TheHousePage() {
               copy: "Materials traced to Indian growers, harvests and regions — never reduced to a price list.",
             },
             {
-              title: "CRAFT",
-              copy: "Traditional attar knowledge composed with a modern perfumer's structure and restraint.",
+              title: "RITUAL",
+              copy: "Formulated for the rhythms of daily care — the weekly champi, the evening massage.",
             },
             {
-              title: "LONGEVITY",
-              copy: "Perfume oils at parfum concentration, made to linger on skin and in memory.",
+              title: "CRAFT",
+              copy: "Slow infusion in small batches — traditional knowledge held to a modern standard of formulation.",
             },
           ].map((principle) => (
             <div key={principle.title} className="bg-background p-8 md:p-10">
@@ -117,10 +116,10 @@ export default function TheHousePage() {
       <section className="px-6 pb-24 md:px-12 lg:px-20">
         <div className="mx-auto flex max-w-7xl flex-col items-center border-t border-border pt-16 text-center md:pt-20">
           <h2 className="font-display text-3xl font-medium tracking-tight text-foreground md:text-5xl">
-            WEAR YOUR <span className="italic text-gold">MEMORY.</span>
+            BEGIN THE <span className="italic text-gold">RITUAL.</span>
           </h2>
           <p className="mt-4 max-w-md text-sm leading-relaxed text-muted-foreground">
-            A fragrance can carry a place, a ritual, a season and a story.
+            A ritual can carry a place, a season and a story.
           </p>
           <Link
             href="/shop"

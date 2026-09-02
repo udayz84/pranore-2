@@ -20,7 +20,7 @@ export function ProductCard({
       <div className={`relative overflow-hidden border border-border bg-secondary ${aspect}`}>
         <FadeImage
           src={product.image}
-          alt={`Pranore ${product.name} — ${product.family} attar`}
+          alt={`Pranore ${product.name} — ${product.family} oil`}
           fill
           className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"
         />

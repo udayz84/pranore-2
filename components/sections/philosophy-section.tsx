@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react";
 
-const titles = ["SCENT,", "ROOTED", "IN INDIA."];
+const titles = ["RITUAL,", "ROOTED", "IN INDIA."];
 
 export function PhilosophySection() {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -128,7 +128,7 @@ export function PhilosophySection() {
         className="px-6 pb-24 pt-8 md:px-12 md:pb-36 md:pt-12 lg:px-20"
       >
         <p className="mx-auto max-w-3xl text-center font-display text-2xl leading-relaxed text-foreground md:text-3xl lg:text-4xl">
-          {"From fragrant woods and luminous flowers to the timeless craft of attar, Pranore brings India's botanical heritage into a contemporary world."
+          {"From the Sunday champi to the evening abhyanga, Pranore brings India's botanical oil rituals into a contemporary world."
             .split(" ")
             .map((word, index, array) => {
               const wordProgress = Math.max(

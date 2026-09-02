@@ -19,7 +19,7 @@ export function GallerySection() {
         <h2 className="mt-4 max-w-3xl font-display text-4xl font-medium leading-[1.05] tracking-tight text-foreground md:text-6xl">
           THE BOTANICALS
           <br />
-          BEHIND THE <span className="italic text-gold">SCENT.</span>
+          BEHIND THE <span className="italic text-gold">RITUAL.</span>
         </h2>
       </div>
 
@@ -28,8 +28,8 @@ export function GallerySection() {
         <div className="lg:col-span-5">
           <div className="relative aspect-[4/5] overflow-hidden border border-border bg-secondary lg:sticky lg:top-28">
             <FadeImage
-              src="/images/pranore/pranore-botanical-detail.jpg"
-              alt="Botanical ingredients — mogra petals, sandalwood and saffron threads"
+              src="/images/pranore/pranore-botanical-oils.jpg"
+              alt="Botanical ingredients — amla, bhringraj, sesame and vetiver"
               fill
               className="object-cover"
             />

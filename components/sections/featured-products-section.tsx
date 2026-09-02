@@ -14,9 +14,6 @@ interface BentoSpec {
 const bentoLayout: BentoSpec[] = [
   { product: products[0], span: "col-span-2 row-span-2 md:col-span-3 md:row-span-2" },
   { product: products[1], span: "col-span-1 row-span-1 md:col-span-3 md:row-span-1" },
-  { product: products[2], span: "col-span-1 row-span-1 md:col-span-3 md:row-span-1" },
-  { product: products[3], span: "col-span-1 row-span-1 md:col-span-2 md:row-span-1" },
-  { product: products[4], span: "col-span-1 row-span-1 md:col-span-4 md:row-span-1" },
 ];
 
 export function FeaturedProductsSection() {
@@ -35,7 +32,7 @@ export function FeaturedProductsSection() {
               </p>
             </div>
             <h2 className="mt-4 font-display text-4xl font-medium tracking-tight text-foreground md:text-6xl">
-              FIVE <span className="italic text-gold">ATTARS.</span>
+              OUR ESSENTIAL <span className="italic text-gold">OILS.</span>
             </h2>
           </div>
           <Link
@@ -59,7 +56,7 @@ export function FeaturedProductsSection() {
             >
               <FadeImage
                 src={product.image}
-                alt={`Pranore ${product.name} — ${product.family} attar`}
+                alt={`Pranore ${product.name} — ${product.family} oil`}
                 fill
                 fadeDelay={index * 90}
                 className="object-cover transition-transform duration-700 ease-out group-hover:scale-[1.05]"
@@ -117,6 +114,26 @@ export function FeaturedProductsSection() {
               />
             </article>
           ))}
+
+          {/* Fine fragrance — the next chapter */}
+          <article className="group relative overflow-hidden border border-border bg-secondary col-span-1 row-span-1 md:col-span-3 md:row-span-1">
+            <p className="absolute left-4 top-4 z-10 text-[10px] font-medium tracking-[0.25em] text-[#7B7166]">
+              N°03
+            </p>
+
+            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+              <span className="inline-block h-[5px] w-[5px] rotate-45 bg-gold" />
+              <p className="mt-4 text-[10px] font-medium uppercase tracking-[0.3em] text-muted-foreground">
+                Coming Soon
+              </p>
+              <h3 className="mt-3 font-display text-xl font-medium tracking-wide text-foreground md:text-2xl">
+                FINE FRAGRANCE
+              </h3>
+              <p className="mt-1.5 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+                The next chapter
+              </p>
+            </div>
+          </article>
         </div>
       </div>
     </section>

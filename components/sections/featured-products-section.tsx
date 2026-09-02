@@ -121,15 +121,22 @@ export function FeaturedProductsSection() {
               N°03
             </p>
 
-            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
+            <FadeImage
+              src="/images/pranore/pranore-perfume-oil-detail.jpg"
+              alt="Pranore Fine Fragrance"
+              fill
+              className="object-cover opacity-50 transition-transform duration-700 ease-out group-hover:scale-[1.05]"
+            />
+
+            <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center z-10">
               <span className="inline-block h-[5px] w-[5px] rotate-45 bg-gold" />
-              <p className="mt-4 text-[10px] font-medium uppercase tracking-[0.3em] text-muted-foreground">
+              <p className="mt-4 text-[10px] font-medium uppercase tracking-[0.3em] text-foreground/80">
                 Coming Soon
               </p>
               <h3 className="mt-3 font-display text-xl font-medium tracking-wide text-foreground md:text-2xl">
                 FINE FRAGRANCE
               </h3>
-              <p className="mt-1.5 text-[11px] uppercase tracking-[0.18em] text-muted-foreground">
+              <p className="mt-1.5 text-[11px] uppercase tracking-[0.18em] text-foreground/80">
                 The next chapter
               </p>
             </div>

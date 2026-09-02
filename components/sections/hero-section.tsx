@@ -79,7 +79,7 @@ export function HeroSection() {
       {/* Sticky container for scroll animation */}
       <div className="sticky top-0 h-screen overflow-hidden">
         {/* Top scrim — keeps the header legible over photography on the dark ground */}
-        <div className="pointer-events-none absolute inset-x-0 top-0 z-30 h-28 bg-gradient-to-b from-background/60 to-transparent" />
+        {/* Top scrim removed per request */}
         <div className="flex h-full w-full items-center justify-center">
           {/* Bento Grid Container */}
           <div
@@ -129,11 +129,9 @@ export function HeroSection() {
                 className="absolute inset-0 z-0 object-cover"
               />
 
-              {/* Bright parchment halo — keeps the olive wordmark legible over any photography */}
-              <div className="pointer-events-none absolute inset-0 z-10 bg-[radial-gradient(ellipse_64%_56%_at_50%_46%,rgba(247,243,236,0.85)_0%,rgba(247,243,236,0.5)_46%,rgba(247,243,236,0)_74%)]" />
+              {/* Bright parchment halo removed per request */}
 
-              {/* Soft scrim so the wordmark and tagline stay legible over photography */}
-              <div className="absolute inset-x-0 bottom-0 z-10 h-48 bg-gradient-to-t from-background/80 to-transparent" />
+              {/* Soft scrim so the wordmark and tagline stay legible over photography - removed per request */}
 
               {/* Wordmark - fades out first as scrolling begins */}
               <div

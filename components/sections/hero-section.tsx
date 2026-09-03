@@ -8,14 +8,14 @@ const word = "PRANORE";
 
 const sideImages = [
   {
-    src: "/images/pranore/pranore-hair-oil.jpg",
-    alt: "Pranore Hair Oil — botanical hair & scalp oil",
+    src: "/images/pranore/pranore-botanical-oils.jpg",
+    alt: "Pranore botanicals — amla, bhringraj and sesame oils",
     position: "left",
     span: 1,
   },
   {
-    src: "/images/pranore/pranore-botanical-oils.jpg",
-    alt: "Pranore botanicals — amla, bhringraj and sesame oils",
+    src: "/images/pranore/pranore-hair-oil.jpg",
+    alt: "Pranore Hair Oil — botanical hair & scalp oil",
     position: "left",
     span: 1,
   },

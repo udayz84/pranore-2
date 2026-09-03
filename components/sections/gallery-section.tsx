@@ -28,8 +28,8 @@ export function GallerySection() {
         <div className="lg:col-span-5">
           <div className="relative aspect-[4/5] overflow-hidden border border-border bg-secondary lg:sticky lg:top-28">
             <FadeImage
-              src="/images/pranore/pranore-botanical-oils.jpg"
-              alt="Botanical ingredients — amla, bhringraj, sesame and vetiver"
+              src="/images/pranore/pranore-body-oil.jpg"
+              alt="Pranore Body Oil — botanicals steeped in cold-pressed oils"
               fill
               className="object-cover"
             />
